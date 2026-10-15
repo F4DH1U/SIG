@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Kota Administrasi Depok, Jawa Barat</name>
+    <Style id="poly-000000-1200-76-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4c000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-000000-1200-76-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4c000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-000000-1200-76">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-000000-1200-76-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-000000-1200-76-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Kota Administrasi Depok</name>
+      <description>Jawa Barat</description>
+      <styleUrl>#poly-000000-1200-76</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              106.7515598,-6.44772,0
+              106.8513522,-6.4529509,0
+              106.8831098,-6.4406683,0
+              106.8935788,-6.3894924,0
+              106.8797595,-6.3713251,0
+              106.8511786,-6.3575927,0
+              106.8005405,-6.3683393,0
+              106.776995,-6.3452513,0
+              106.7549229,-6.3441137,0
+              106.7500163,-6.3675433,0
+              106.7475563,-6.387218,0
+              106.7450947,-6.4188337,0
+              106.7421474,-6.444535,0
+              106.7515598,-6.44772,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
